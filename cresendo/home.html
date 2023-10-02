@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    center{
+      font-family: 'Times New Roman', Times, serif;
+      background-color: gray;
+      font-size: 20px;
+    }
+    body{
+      background-image: url(3.webp);
+      color: white;
+      font-size: 30px;
+      
+    }
+    .contest,.contestt{
+       display: grid;
+       grid-column-start: 1;
+       grid-column-end: 2;
+  
+      width: 500px;
+      
+  
+    }
+    img{
+      height: 150px;
+      width: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+    }
+    #Ticket Registrations{
+      width: 200px;
+    }
+    .header{
+     
+      top: 0;
+      left: 0;
+      
+      padding: 2rem 9%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+        }
+    .navbar a{
+      display: grid;
+      grid-column-start:1 ;
+      grid-column-end:2;
+      font-size: 20px;
+      color: black;
+      margin-left: 4rem;
+      transition: .3s;
+    }
+    .navbar a:hover ,.navbar a.active{
+      color: antiquewhite;
+    }
+    .contest,.contestt{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 2rem;
+      width: 1000px;
+      margin-left: 100px;
+    }
+    .contest,.contest-name{
+      flex: 1 1;
+      background-color: rgb(11, 59, 55);
+      padding: 3rem 2rem 4rem;
+      border-radius: 2rem;
+      text-align: center;
+      border: .2rem solid rgb(156, 243, 85);
+      transition: .5s ease;
+    }
+    .contest,.contest-name:hover{
+      border-color: gray;
+      transform: scale(1.02);
+    }
+    .contestt,.contestt-name{
+      flex: 1 1;
+      background-color: rgb(92, 27, 70);
+      padding: 3rem 2rem 4rem;
+      border-radius: 2rem;
+      text-align: center;
+      border: .2rem solid rgb(192, 209, 38);
+      transition: .5s ease;
+    }
+    .contestt,.contestt-name:hover{
+      border-color: rgb(14, 221, 83);
+      transform: scale(1.02);
+    }
+    .Ticket{
+      background-color: black;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .input{
+      width: 200;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+
+    }
+    .Singers {
+      display: grid;
+      align-items: center;
+
+    }
+    .Singers,.singers{
+      position: relative;
+      border-radius: 2rem;
+      box-shadow: 0 0 1rem gray;
+      overflow: hidden;
+      display: flex;
+    }
+    .singers img{
+      width: 100%;
+      transition: .5s ease;
+    }
+    .singers img:hover img{
+      transform: scale(1,1);
+    }
+    
+
+  </style>
+</head>
+<body>
+  
+  <header class="header">
+    <a href="#" class="logo">CRESENDO </a>
+    <nav>
+      <a href="#Home">Home</a>
+      <a href="#Ticket Registrations">Ticekt Registrations</a>
+      <a href="#Contact">Contact Us</a>
+    
+    </nav>
+  </header>
+  <!-- <center><h3>Welcome to the world of Music</h3></center> -->
+
+<p style="font-size: 25px;font-family: 'Times New Roman', Times, serif;">
+  Music is a pleasant sound which is a combination of melodies and harmony and which soothes you. Music may also refer to the art of composing such pleasant sounds 
+  with the help of the various musical instruments. A person who knows music is a Musician. The music consists of
+   Sargam, Ragas, Taals, etc.
+</p>
+<div class="contest">
+  <div class="contest-name">
+   <img src="2.jpg" alt="">
+   <div>
+    <p>
+      This is the event of lots of music where You can live the fullest.
+    </p>
+   </div>
+  </div>
+  <div class="contest-name">
+    <img src="afrTIGi.jpg" alt="">
+    <p >
+      This is the finding the right and best of the choices.
+    </p>
+  </div>
+</div>
+  <section class="home" id="Home">
+    <div class="home-content">
+      <h3>Hello Everyone</h3>
+      <h3>CRESENDO</h3>
+      <P>
+      It is the event of full of fun loaded and it gives You the complete vibe.It consistsof three levels .Fisrt level is to
+      find the correct one .Second one is the go throungh the struggles.Third one is the mystery way.
+      </P>
+      <div class="Event-details">
+        <p>
+          Location:SRR hall,Leo muthu Stadium;<br>
+          Event Time: 9am to 1pm <br>
+          Levels : 3 levels
+
+        </p>
+      </div>
+      <section class="singers" id="services">
+      <div class="contestt">
+        <div class="contestt-name">
+          <h3>Hari</h3>
+          <p>she is a caranatic world famous singer.She is famous for her music</p>
+
+        </div>
+      
+      <div class="contestt-name">
+        <h3>Ragul</h3>
+        <p>He is one of the top 10 hiphop singer.
+          He makes everyone happpy with his songs.
+        </p>
+      </div>
+
+    </div>
+  </section>
+  <section class="singers" id="services">
+    <div class="Singers">
+      <img src="4.jpg" alt="">
+      <div class="singers-box">
+        <h3>Hari</h3>
+        <p>she is a caranatic world famous singer.She is famous for her music</p>
+
+      </div>
+    </div>
+    <div class="Singers">
+      <img src="5.jpg" alt="">
+      <div class="singers-box">
+      <h3>Ragul</h3>
+      <p>He is one of the top 10 hiphop singer.
+        He makes everyone happpy with his songs.
+      </p>
+    </div>
+  </div>
+  </div>
+</section>
+
+  </section>
+  
+  <section class="Ticket" id="Ticket Registrations">
+    <h1>TICKET REGISTRATION</h1>
+    <form action="submit">
+      <label for="name">NAME : </label><br>
+      <input type="text"placeholder="Eneter your name" id="name" name="name"><br>
+      <label for="phno">PHONE NUMBER : </label><br>
+      <input type="number" placeholder="Eneter your phone number" id="phno" name="phno"><br>
+      <label for="mail">Email ADDRESS : </label><br>
+      <input type="mail" placeholder="Eneter your email address" id="mail" name="mail"><br>
+      <input type="text" placeholder="Eneter your Email address"><br>
+      <button>SUBMIT</button>
+
+
+    </form>
+
+  </section>
+
+</body>
+</html>
